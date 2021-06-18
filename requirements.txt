@@ -14,6 +14,7 @@ idna
 itsdangerous
 Jinja2
 MarkupSafe
+psycopg2-binary==2.9.1
 requests
 SQLAlchemy
 urllib3
