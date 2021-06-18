@@ -12,7 +12,7 @@ from functools import wraps
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-load_dotenv('env')
+app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
